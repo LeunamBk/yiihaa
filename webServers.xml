@@ -1,0 +1,17 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="eb5b75b2-3d13-4af3-834e-ce993cc5b22b" name="strato" url="http://85.214.202.219">
+        <fileTransfer host="85.214.202.219" port="21" rootFolder="/var/www/vhosts/default/htdocs">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2af38cb5-b303-41e1-b7cf-f0c0c865dc4e" name="yii" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
